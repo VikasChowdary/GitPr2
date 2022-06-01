@@ -1,0 +1,13 @@
+connector:
+  name: promtest
+  identifier: promtest
+  description:
+  orgIdentifier: default
+  projectIdentifier: VikasGitTest
+  type: Artifactory
+  spec:
+    artifactoryServerUrl: test.com
+    auth:
+      type: Anonymous
+    delegateSelectors:
+    - pl-play
